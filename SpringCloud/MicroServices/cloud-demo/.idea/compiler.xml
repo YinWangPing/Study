@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="cloud-demo-api" />
+        <module name="cloud-demo-eureka" />
+        <module name="cloud-demo-provider-user" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="cloud-demo" target="1.8" />
+      <module name="cloud-demo-api" target="1.8" />
+      <module name="cloud-demo-eureka" target="1.8" />
+      <module name="cloud-demo-provider-user" target="1.8" />
+      <module name="cloud-zero-provider-user" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="cloud-demo" options="-parameters" />
+      <module name="cloud-demo-api" options="" />
+      <module name="cloud-demo-eureka" options="" />
+      <module name="cloud-demo-provider-user" options="" />
+      <module name="cloud-zero-provider-user" options="-parameters" />
+    </option>
+  </component>
+</project>

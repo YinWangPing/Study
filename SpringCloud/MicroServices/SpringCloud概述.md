@@ -22,6 +22,6 @@ SpringBoot专注于快速、方便的开发单个微服务个体，SpringCloud�
 
 ## [#](#框架对比)框架对比
 
-![框架对比](./compare.png)
+![框架对比](./picture/compare.png)
 
 上面是我网上找的图片，通过对比不难发现，springcloud相对其他比较完善，另外图中dubbo的维护状态是错的，duboo已经重新开始维护了
