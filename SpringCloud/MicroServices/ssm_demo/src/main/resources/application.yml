@@ -1,0 +1,23 @@
+server:
+  port: 8080
+
+spring:
+  servlet:
+    multipart:
+      max-file-size: 1024MB
+      max-request-size: 1024MB
+  application:
+    name: ssm_demo
+  datasource:
+    driverClassName: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/cloud-zero?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=true&serverTimezone=GMT%2B8
+    username: root
+    password: 123456
+
+
+mybatis:
+  type-aliases-package: com.example.ssm_demo.pojo # 所有Entity别名类所在包
+  mapper-locations: classpath:mapper/*.xml  # mapper映射文件
+uploadFile:
+  resourceHandler: /upload/** #请求 url 中的资源映射
+  location: D:/uploadFiles/ #自定义上传文件保存路径
