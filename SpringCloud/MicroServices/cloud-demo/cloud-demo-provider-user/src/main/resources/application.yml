@@ -1,6 +1,5 @@
 server:
   port: 8001
-
 spring:
   application:
     name: cloud-demo-user
@@ -9,6 +8,8 @@ spring:
     url: jdbc:mysql://localhost:3306/cloud-zero?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=true&serverTimezone=GMT%2B8
     username: root
     password: 123456
+  profiles:
+    active: 8002
 
 
 mybatis:
@@ -25,7 +26,20 @@ eureka:
     prefer-ip-address: true     # 访问路径可以显示IP地址
 #后面监控也会用到
 info:
-  app.name: cloud-zero
-  company.name: www.zmrit.com
+  app.name: cloud-demo
+  company.name: www.yailjj.com
   build.artifactId: @project.artifactId@
   build.version: @project.version@
+---
+spring:
+  profiles: 8001
+server:
+  port: 8001
+
+---
+spring:
+  profiles: 8002
+  datasource:
+    url: jdbc:mysql://localhost:3306/cloud-zero2?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=true&serverTimezone=GMT%2B8
+server:
+  port: 8002

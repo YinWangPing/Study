@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/cloud-demo.iml" filepath="$PROJECT_DIR$/cloud-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-demo-api/cloud-demo-api.iml" filepath="$PROJECT_DIR$/cloud-demo-api/cloud-demo-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-demo-consumer-user/cloud-demo-consumer-user.iml" filepath="$PROJECT_DIR$/cloud-demo-consumer-user/cloud-demo-consumer-user.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-demo-eureka/cloud-demo-eureka.iml" filepath="$PROJECT_DIR$/cloud-demo-eureka/cloud-demo-eureka.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-demo-provider-user/cloud-demo-provider-user.iml" filepath="$PROJECT_DIR$/cloud-demo-provider-user/cloud-demo-provider-user.iml" />
     </modules>

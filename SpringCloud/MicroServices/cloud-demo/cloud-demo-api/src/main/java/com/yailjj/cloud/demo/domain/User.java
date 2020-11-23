@@ -1,8 +1,10 @@
 package com.yailjj.cloud.demo.domain;
 
 import lombok.Data;
+import lombok.experimental.Accessors;
 
 @Data
+@Accessors(chain = true)
 public class User {
     /**
      * 编号

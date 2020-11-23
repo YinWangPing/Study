@@ -11,5 +11,12 @@
 
     <artifactId>cloud-demo-api</artifactId>
     <packaging>jar</packaging>
+    <dependencies>
+        <!-- Fegin相关 -->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-openfeign</artifactId>
+        </dependency>
 
+    </dependencies>
 </project>

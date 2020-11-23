@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="cloud-demo-api" />
+        <module name="cloud-demo-consumer-user" />
         <module name="cloud-demo-eureka" />
         <module name="cloud-demo-provider-user" />
       </profile>
@@ -15,6 +16,7 @@
     <bytecodeTargetLevel>
       <module name="cloud-demo" target="1.8" />
       <module name="cloud-demo-api" target="1.8" />
+      <module name="cloud-demo-consumer-user" target="1.8" />
       <module name="cloud-demo-eureka" target="1.8" />
       <module name="cloud-demo-provider-user" target="1.8" />
       <module name="cloud-zero-provider-user" target="1.8" />
@@ -24,6 +26,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="cloud-demo" options="-parameters" />
       <module name="cloud-demo-api" options="" />
+      <module name="cloud-demo-consumer-user" options="" />
       <module name="cloud-demo-eureka" options="" />
       <module name="cloud-demo-provider-user" options="" />
       <module name="cloud-zero-provider-user" options="-parameters" />
